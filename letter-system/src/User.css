@@ -1,0 +1,90 @@
+/* ---------------- Container ---------------- */
+.user-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f8fa;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------- Form Styling ---------------- */
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3);
+}
+
+/* ---------------- Summary Table ---------------- */
+.summary-table {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.summary-table th,
+.summary-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.summary-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.summary-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
